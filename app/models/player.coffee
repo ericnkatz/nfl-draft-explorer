@@ -2,7 +2,7 @@
 
 attr = DS.attr
 
-Players = DS.Model.extend
+Player = DS.Model.extend
   age: attr "number"
   college: attr "string"
   name: attr "string"
@@ -12,4 +12,4 @@ Players = DS.Model.extend
   team: attr "string"
   year: attr "number"
 
-`export default Players`
+`export default Player`
